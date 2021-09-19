@@ -4,7 +4,8 @@ const robot = {
   text: require('./robots/text'),
   input: require("./robots/input"),
   anime: require("./robots/anime"),
-  state: require('./robots/state/')
+  state: require('./robots/state/'),
+  pdf: require('./robots/pdf')
 } 
 async function init() {
   try {
@@ -12,12 +13,12 @@ async function init() {
     await robot.anime();
     await robot.text();
     await robot.image();
-    const conteudo = await robot.state.load();
-    console.log(conteudo);
+    await robot.pdf();
+    console.log("> [ALL ROBOTS]  === the robots' actions were executed successfully! ==");
     process.exit(0);
   } catch(e) {
     console.log("Erro no orquestrador: " + e.message);
-    process.exit(0);
+    process.exit(1);
   }
   
 }
