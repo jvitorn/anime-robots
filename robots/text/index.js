@@ -8,7 +8,7 @@ async function searchOfWiki() {
         console.log('> [text-robot] Starting...'); 
         const conteudo = await state.load()
         const busca = "history of " + conteudo.searchTerm;
-        const authenticated = await algorithmia('simGA5dmYe2bDMz9TzxT55sZcdH1');
+        const authenticated = await algorithmia('sim2E7jOGBaKoRzZ3zgX7SLxT4F1');
         const wikiAlgorithmia = await authenticated.algo('web/WikipediaParser/0.1.2?timeout=300');
         const wikiResp = await wikiAlgorithmia.pipe(busca);
         const contWiki = await wikiResp.get().content;

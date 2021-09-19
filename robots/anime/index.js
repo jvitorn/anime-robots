@@ -5,6 +5,7 @@ async function robot() {
     const conteudo = await state.load();
     const anime = await searchAnime(conteudo.searchTerm);
     conteudo.episodes = anime.episodes;
+    conteudo.title = anime.title;
     console.log("> [anime-robot] Episodes in " + anime.title+ " added !!");
     conteudo.type = anime.type;
     console.log('> [anime-robot] type info added !!');
@@ -12,7 +13,7 @@ async function robot() {
     console.log('> [anime-robot] score info added !!');
     conteudo.url = anime.url;
     console.log('> [anime-robot] url info added !!');
-    conteudo.image_url = anime.url;
+    conteudo.image_url = anime.image_url;
     console.log('> [anime-robot] image principal info added !!');
     conteudo.score = anime.score;
     console.log('> [anime-robot] score info added !!');

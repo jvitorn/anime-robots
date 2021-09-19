@@ -17,7 +17,7 @@ async function fetchGoogleAndReturnImagesLinks(query) {
     const response = await customSearch.cse.list({
         auth:customSearchCredentials.apikeygoogle,
         cx:customSearchCredentials.searchEngineId,
-        q: 'anime' + query,
+        q:query,
         searchType: 'image',
         num:4
     })
