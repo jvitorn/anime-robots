@@ -1,0 +1,30 @@
+{
+  "name": "robots-thread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "algorithmia": "^0.3.10",
+    "axios": "^0.21.4",
+    "googleapis": "^87.0.0",
+    "ibm": "0.0.1",
+    "ibm-watson": "^6.2.1",
+    "image-downloader": "^4.0.3",
+    "readline-sync": "^1.4.10",
+    "sbd": "^1.0.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvitorn/test-robots-thread.git"
+  },
+  "author": "jvitorn_",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvitorn/test-robots-thread/issues"
+  },
+  "homepage": "https://github.com/jvitorn/test-robots-thread#readme"
+}
