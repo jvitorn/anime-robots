@@ -30,6 +30,18 @@ Siga os passos abaixo para instalar e configurar este projeto:
     - Para a biblioteca Algorithmia, você precisa de uma chave de API. Você pode obter essa chave na sua conta Algorithmia.
     - Para a biblioteca Googleapis, você precisa de credenciais de autenticação. Isso pode ser uma chave de API ou um ID de cliente OAuth 2.0. Você pode obter essas credenciais na sua conta Google Cloud.
     - Para as bibliotecas IBM e IBM-Watson, você precisa de uma chave de API da IBM Cloud. Você pode obter essa chave na sua conta IBM Cloud.
+      
+## Contribuição
+
+Este projeto é open source e aceita contribuições de todos. Se você deseja contribuir para este projeto, você pode fazer isso de várias maneiras. 
+
+1. **Reportando bugs**: Se você encontrar um bug ou um problema, por favor, crie uma issue no GitHub detalhando o problema e onde ele ocorre. Isso nos ajudará a identificar e corrigir problemas mais rapidamente.
+
+2. **Sugerindo melhorias**: Se você tem uma ideia de como podemos melhorar o projeto, não hesite em compartilhá-la! Crie uma issue no GitHub com a tag 'melhoria' e descreva sua ideia.
+
+3. **Contribuindo com código**: Se você deseja contribuir diretamente com o código, sinta-se à vontade para fazer um fork do repositório, fazer suas alterações e enviar um pull request. Por favor, certifique-se de que seu código segue as diretrizes de estilo do projeto e inclua testes para qualquer nova funcionalidade.
+
+Agradecemos todas as contribuições, não importa quão pequenas sejam. Juntos, podemos fazer deste projeto algo ainda melhor!
 
 ## Licença
 
