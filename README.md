@@ -30,3 +30,8 @@ Siga os passos abaixo para instalar e configurar este projeto:
     - Para a biblioteca Algorithmia, você precisa de uma chave de API. Você pode obter essa chave na sua conta Algorithmia.
     - Para a biblioteca Googleapis, você precisa de credenciais de autenticação. Isso pode ser uma chave de API ou um ID de cliente OAuth 2.0. Você pode obter essas credenciais na sua conta Google Cloud.
     - Para as bibliotecas IBM e IBM-Watson, você precisa de uma chave de API da IBM Cloud. Você pode obter essa chave na sua conta IBM Cloud.
+
+## Licença
+
+Este projeto é open source e sem fins lucrativos. Ele é distribuído sob a licença MIT, que é uma licença permissiva de código aberto. 
+Isso significa que você tem permissão para usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software, desde que inclua o aviso de direitos autorais original e o aviso de permissão em todas as cópias ou partes substanciais do software.
