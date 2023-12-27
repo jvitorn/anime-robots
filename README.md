@@ -9,3 +9,24 @@ Em seguida, o robô de texto consome os dados da IBM Watson para formatar as pal
 O robô subsequente busca imagens relacionadas no Google. 
 No final, após todas essas etapas, um último robô formata e gera todas essas informações em um PDF detalhado. 
 Este projeto representa um avanço significativo na maneira como os fãs de anime podem acessar e consumir informações sobre seus animes favoritos.
+
+## Instalação
+
+Siga os passos abaixo para instalar e configurar este projeto:
+
+1. Clone o repositório: `git clone https://github.com/jvitorn/test-robots-thread.git`
+2. Entre no diretório do projeto: `cd test-robots-thread`
+3. Instale as dependências: 
+    - algorithmia: `npm install algorithmia@0.3.10`
+    - axios: `npm install axios@0.21.4`
+    - googleapis: `npm install googleapis@87.0.0`
+    - ibm: `npm install ibm@0.0.1`
+    - ibm-watson: `npm install ibm-watson@6.2.1`
+    - image-downloader: `npm install image-downloader@4.0.3`
+    - readline-sync: `npm install readline-sync@1.4.10`
+    - sbd: `npm install sbd@1.0.19`
+
+4. Configure as credenciais:
+    - Para a biblioteca Algorithmia, você precisa de uma chave de API. Você pode obter essa chave na sua conta Algorithmia.
+    - Para a biblioteca Googleapis, você precisa de credenciais de autenticação. Isso pode ser uma chave de API ou um ID de cliente OAuth 2.0. Você pode obter essas credenciais na sua conta Google Cloud.
+    - Para as bibliotecas IBM e IBM-Watson, você precisa de uma chave de API da IBM Cloud. Você pode obter essa chave na sua conta IBM Cloud.
